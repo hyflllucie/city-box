@@ -1,0 +1,29 @@
+:root {
+  --cream: #faf7f1;
+  --cream-deep: #f3ede2;
+  --cream-card: #fffdf9;
+  --ink: #1a1a1a;
+  --ink-soft: #5e5e5e;
+  --line: #ece5d7;
+  --klein: #1e3a8a;
+  --klein-light: #3b6fd4;
+  --klein-pale: #d6e3f8;
+  --klein-bg: #eef4fc;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans SC", -apple-system, BlinkMacSystemFont, sans-serif;
+  background: var(--cream);
+  color: var(--ink);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a { text-decoration: none; color: inherit; }
+button { font-family: inherit; cursor: pointer; border: none; background: none; }
