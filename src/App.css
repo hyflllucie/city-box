@@ -168,6 +168,7 @@
 .drawer-capsule__icon .icon { width: 22px; height: 22px; }
 .drawer-capsule__name { font-size: 14px; font-weight: 600; color: var(--ink); }
 .drawer-capsule__count { font-size: 12px; color: var(--ink-soft); }
+.mine-modal-overlay--top { z-index: 60; }
 .mine-drawer-overlay { position: fixed; inset: 0; z-index: 50; display: flex; align-items: flex-end; justify-content: center; background: rgba(26,26,26,.42); animation: modalIn .2s ease; }
 @media (min-width: 641px) { .mine-drawer-overlay { align-items: center; padding: 24px; } }
 .mine-drawer { width: 100%; max-width: 560px; height: min(78vh, 720px); display: flex; flex-direction: column; position: relative; background: #fff; border-radius: 28px 28px 0 0; box-shadow: 0 -12px 44px rgba(26,26,26,.22); animation: slideUp .3s ease; overflow: hidden; }

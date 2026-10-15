@@ -303,7 +303,7 @@ function MineView({ onViewChange, mySchedule }) {
         </div>
       )}
       {ticketModal && (
-        <div className="mine-modal-overlay" onClick={() => setTicketModal(null)}>
+        <div className="mine-modal-overlay mine-modal-overlay--top" onClick={() => setTicketModal(null)}>
           <div className="ticket-modal" onClick={(e) => e.stopPropagation()}>
             <button type="button" className="login-modal__close" onClick={() => setTicketModal(null)} aria-label="关闭">×</button>
             <div className="ticket-modal__header">
@@ -331,7 +331,7 @@ function MineView({ onViewChange, mySchedule }) {
         </div>
       )}
       {communityModal && (
-        <div className="mine-modal-overlay" onClick={() => setCommunityModal(null)}>
+        <div className="mine-modal-overlay mine-modal-overlay--top" onClick={() => setCommunityModal(null)}>
           <div className="community-modal" onClick={(e) => e.stopPropagation()}>
             <button type="button" className="login-modal__close" onClick={() => setCommunityModal(null)} aria-label="关闭">×</button>
             <div className="community-modal__header">
